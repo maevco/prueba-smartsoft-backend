@@ -1,0 +1,5 @@
+package com.smartsoft.prueba.repository;
+
+public interface FacturaRepository {
+
+}

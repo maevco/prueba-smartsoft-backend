@@ -1,0 +1,5 @@
+package com.smartsoft.prueba.entity;
+
+public class Cliente {
+
+}

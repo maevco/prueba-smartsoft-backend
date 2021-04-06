@@ -1,0 +1,25 @@
+package com.smartsoft.prueba.entity;
+
+import java.io.Serializable;
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "cliente", catalog = "smartsoft")
+public class Cliente implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private Long id;
+	private String nombre;
+	private String apellido;
+	private String direccion;
+	private Date fechaNacimiento;
+	private String telefono;
+	private String email;
+
+}

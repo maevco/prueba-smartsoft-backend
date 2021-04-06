@@ -1,0 +1,5 @@
+package com.smartsoft.prueba.service;
+
+public class ClienteServiceImpl {
+
+}

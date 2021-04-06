@@ -1,0 +1,18 @@
+package com.smartsoft.prueba.entity;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+
+@Entity
+@Table(name = "producto", schema = "smartsoft")
+public class Producto implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+}

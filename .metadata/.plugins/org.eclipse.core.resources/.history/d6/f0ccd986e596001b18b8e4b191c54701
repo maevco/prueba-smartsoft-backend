@@ -1,0 +1,8 @@
+package com.smartsoft.prueba.controler;
+
+@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
+@RestController
+@RequestMapping("/api/factura/")
+public class FacturaControler {
+
+}

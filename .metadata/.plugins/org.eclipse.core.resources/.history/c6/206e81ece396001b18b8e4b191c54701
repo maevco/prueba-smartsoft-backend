@@ -1,0 +1,16 @@
+package com.smartsoft.prueba.service;
+
+import org.springframework.stereotype.Service;
+
+import com.smartsoft.prueba.entity.Factura;
+
+@Service
+public class FacturaServiceImpl implements FacturaServiceDecl{
+
+	@Override
+	public Factura add(Factura factura) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
